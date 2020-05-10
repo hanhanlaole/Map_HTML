@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body>
+    <div id="76fd8e1bfad24be5930f11a3a40419fe" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_76fd8e1bfad24be5930f11a3a40419fe = echarts.init(
+            document.getElementById('76fd8e1bfad24be5930f11a3a40419fe'), 'white', {renderer: 'canvas'});
+        var option_76fd8e1bfad24be5930f11a3a40419fe = {
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Mark",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "china",
+            "data": [
+                {
+                    "name": "\u6e56\u5317",
+                    "value": 45.23
+                },
+                {
+                    "name": "\u5b89\u5fbd",
+                    "value": 34.27
+                },
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": 23.17
+                },
+                {
+                    "name": "\u6e56\u5357",
+                    "value": 50.12
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": true,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Mark"
+            ],
+            "selected": {
+                "Mark": true
+            },
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "China Map"
+        }
+    ],
+    "visualMap": {
+        "type": "continuous",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true
+    }
+};
+        chart_76fd8e1bfad24be5930f11a3a40419fe.setOption(option_76fd8e1bfad24be5930f11a3a40419fe);
+    </script>
+</body>
+</html>
